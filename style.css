@@ -1,0 +1,26 @@
+section{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+.box{
+    display: flex;
+    width: 70%;
+}
+.heading--text{
+  display:inline;
+  letter-spacing: 10px;
+  height: 60px;
+  padding: 15px;
+  background-color: #04AA6D;
+  color:white;
+  margin-right: 20px;
+}
+.paragraph--texts{
+ align-self: center;
+}
+.rot{
+ transform: rotate(-180deg);
+}
